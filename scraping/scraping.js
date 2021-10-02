@@ -1,23 +1,36 @@
 const axios = require['axios'];
 const jsdom = require['jsdom'];
 
+//const { JSDOM } = jsdom;
 
 
-//Request - ora fare richiesta
-//const response = axios.get('https://seohacks.es');
-//console.log(response);
+
+const response = axios.get('https://www.hotelleria.it');
+console.log(response);
 
 
-async function fetch(url) {
-    const response = await axios.get(url);
-    console.log(response);
+//async function scrape(url) {
+    //Request - ora fare richiesta
 
-}
+    //const response = await axios.get(url);
+    //console.log(response);
 
-fetch('https://seohacks.es');
+    //Parsing
+
+    //const dom = new JSDOM(response.data);
+    //console.log(dom);
+
+    //Output
+
+    //const title = dom.window.document.querySelector('title');
+
+    //console.log(title)
+
+//}
+
+//scrape('https://seohacks.es');
 
 
-//Parsing
 
 
 //Output
