@@ -6,3 +6,7 @@ const regex = /ejem/g
 
 console.log(regex.test('ejemplo'))
 console.log(regex.test('abc'))
+
+
+console.log('altavoz'.match(regex)) //questo non restituisce niente
+
